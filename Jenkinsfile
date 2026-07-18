@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('codecheckout') {
             steps{
-              checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/ankvishwakarma/Mavenbuild.git',credentialsId: 'ankgit']])
+              checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/jitendragitCR/DevopsLearning.git',credentialsId: 'jitendragitCR']])
             }
         }
         stage ('Build') {
