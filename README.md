@@ -1,2 +1,0 @@
-# DevopsLearning
-Training
